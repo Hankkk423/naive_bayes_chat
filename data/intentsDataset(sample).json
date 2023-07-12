@@ -1,0 +1,8 @@
+{
+    "intents": [
+        {
+            "tag": "chat_age",
+            "responses": ["I am 25 years old"]
+        }
+    ]
+}
