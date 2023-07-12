@@ -1,6 +1,6 @@
 **/.venv/
 **/__pycache__/
-**/.DS_Store
+**/.DS_Store/
 
 data/chitchat(formal).xlsx
 data/intentsDataset(formal).json
