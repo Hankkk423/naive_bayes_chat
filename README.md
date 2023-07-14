@@ -8,5 +8,5 @@ See requirements.txt
 
 ## Usage
 
-Clone the project and setup personal dataset (excel and json)
+Clone the project and setup personal dataset ('excel' and 'json' file in 'data/' folder)
 
