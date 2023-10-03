@@ -21,11 +21,11 @@ def respond_to_try():
 @app.route('/test', methods=['POST'])
 @cross_origin()  # Enable CORS for this specific route
 def test():
-    data = request.json
-    message = data['message']
-    answer = '[Port: test] success'
-    print('Prot: test, Get: ', message)
-    return jsonify({'answer': answer})
+    message = request.json['message']
+    response = '[Port: /test] success'
+    print('Prot: /test, Get: ', message)
+    tag = 'test'
+    return jsonify({'res': response, 'tag': tag})
 
 
 if __name__ == '__main__':
